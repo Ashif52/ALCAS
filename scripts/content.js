@@ -9,6 +9,7 @@ const contentSets = [
              "3 Ads Campaign "
             ],
       div2: [
+             "5 Posters per week",
              "Reels or Shorts (1 Per week) ", 
              "Content Creation/Strategy ", 
              "Business Branding Support ",
@@ -82,7 +83,7 @@ document.getElementById("switch-bgimg").addEventListener("click", () => {
     document.getElementById("list-div-1").innerHTML = set.div1.map(item => 
         `
             <div class="pricing-card-list-item">
-                <img src="../resources/elements/pricing-card-list-checked-icon-light.svg"
+                <img src="https://cdn.prod.website-files.com/67ce9e1e8e0785f9534b017a/67d8f8ee688169452f108dd8_pricing-card-list-checked-icon-gray.svg"
                     loading="lazy" alt="Checked icon"
                     class="icon-18px">
             <div>
@@ -94,7 +95,7 @@ document.getElementById("switch-bgimg").addEventListener("click", () => {
     document.getElementById("list-div-2").innerHTML = set.div2.map(item => 
         `
             <div class="pricing-card-list-item">
-                <img src="../resources/elements/pricing-card-list-checked-icon-light.svg"
+                <img src="https://cdn.prod.website-files.com/67ce9e1e8e0785f9534b017a/67d8f8ee688169452f108dd8_pricing-card-list-checked-icon-gray.svg"
                     loading="lazy" alt="Checked icon"
                     class="icon-18px">
             <div>
@@ -105,7 +106,7 @@ document.getElementById("switch-bgimg").addEventListener("click", () => {
     document.getElementById("list-div-3").innerHTML = set.div3.map(item => 
         `
             <div class="pricing-card-list-item">
-                <img src="../resources/elements/pricing-card-list-checked-icon-light.svg"
+                <img src="https://cdn.prod.website-files.com/67ce9e1e8e0785f9534b017a/67d902518f9d1b54d00cd77e_pricing-card-list-checked-icon-light.svg"
                     loading="lazy" alt="Checked icon"
                     class="icon-18px">
             <div>
