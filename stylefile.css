@@ -16,6 +16,9 @@ html {
     vertical-align: baseline;
     display: inline-block;
   }
+  #list-div-3,#list-div-2,#list-div-1 {
+    transition: all 0.5s;
+  }
   
   audio:not([controls]) {
     height: 0;
@@ -59,7 +62,20 @@ html {
   small {
     font-size: 80%;
   }
-  
+  #alcas-hero{
+
+    height: 40vh;
+}
+#between{
+    height: 14rem;
+}
+
+.client-logo{
+
+    width: 40%;
+}
+
+
   sub, sup {
     vertical-align: baseline;
     font-size: 75%;

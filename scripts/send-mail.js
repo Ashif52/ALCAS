@@ -13,10 +13,12 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         message: this.message.value,
         user_email: this.Email.value
     }).then(function(response) {
+        console.log("11111")
         spinner.style.display = "none";
         submitBtn.disabled = false;
         messageSuccess.style.display = "block"
     }, function(error) {
+        console.log("222222")
         spinner.style.display = "none";
         submitBtn.disabled = false;
         messageError.style.display = "block"
